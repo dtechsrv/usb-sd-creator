@@ -52,9 +52,9 @@
 // force update notification dialog
 //#define FORCE_UPDATE_NOTIFICATION "1.3"
 
-const QString Creator::releasesUrl = "http://releases.libreelec.tv/";
+const QString Creator::releasesUrl = "http://libreelec.dtech.hu/";
 const QString Creator::versionUrl = releasesUrl + "creator_version";
-const QString Creator::helpUrl = "https://wiki.libreelec.tv/index.php?title=LibreELEC_USB-SD_Creator";
+const QString Creator::helpUrl = "http://libreelec.dtech.hu/";
 const int Creator::timerValue = 1500;  // msec
 
 Creator::Creator(Privileges &privilegesArg, QWidget *parent) :

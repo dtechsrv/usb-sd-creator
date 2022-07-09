@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
     qDebug() << "App data: Version:" << BUILD_VERSION ", Build date: " BUILD_DATE;
 
     if (app.arguments().contains("--no-proxy") == false) {
-        QNetworkProxyQuery npq(QUrl("http://releases.libreelec.tv/"));
+        QNetworkProxyQuery npq(QUrl("http://libreelec.dtech.hu/"));
         QList<QNetworkProxy> listOfProxies = QNetworkProxyFactory::systemProxyForQuery(npq);
         if (listOfProxies.size()) {
             QNetworkProxy::setApplicationProxy(listOfProxies[0]);
